@@ -6,7 +6,7 @@ theme: hugo-paper
 
 module:
   imports:
-  - path: github.com/adityatelange/hugo-PaperMod
+  - path: github.com/nanxiaobei/hugo-paper
   mounts:
   - disableWatch: false
     excludeFiles: null
