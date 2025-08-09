@@ -1,7 +1,7 @@
 baseURL: https://jkrebian.github.io/
 languageCode: en-us
 title: John Krebian's Blog
-theme: paper
+theme: hugo-paper
 
 
 module:
