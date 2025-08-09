@@ -5,6 +5,8 @@ theme: paper
 
 
 module:
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
   mounts:
   - disableWatch: false
     excludeFiles: null
@@ -48,3 +50,7 @@ module:
     lang: ""
     source: static
     target: static
+
+caches:
+  images:
+    dir: :cacheDir/images
