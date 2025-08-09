@@ -1,0 +1,50 @@
+baseURL: https://jkrebian.github.io/
+languageCode: en-us
+title: John Krebian's Blog
+theme: paper
+
+
+module:
+  mounts:
+  - disableWatch: false
+    excludeFiles: null
+    includeFiles: null
+    lang: ""
+    source: content
+    target: content
+  - disableWatch: false
+    excludeFiles: null
+    includeFiles: null
+    lang: ""
+    source: data
+    target: data
+  - disableWatch: false
+    excludeFiles: null
+    includeFiles: null
+    lang: ""
+    source: layouts
+    target: layouts
+  - disableWatch: false
+    excludeFiles: null
+    includeFiles: null
+    lang: ""
+    source: i18n
+    target: i18n
+  - disableWatch: false
+    excludeFiles: null
+    includeFiles: null
+    lang: ""
+    source: archetypes
+    target: archetypes
+  - disableWatch: false
+    excludeFiles: null
+    includeFiles: null
+    lang: ""
+    source: assets
+    target: assets
+  - disableWatch: false
+    excludeFiles: null
+    includeFiles: null
+    lang: ""
+    source: static
+    target: static
